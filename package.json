@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/PedroFnseca/NLW-Setup/issues"
   },
-  "homepage": "https://github.com/PedroFnseca/NLW-Setup#readme"
+  "homepage": "https://github.com/PedroFnseca/NLW-Setup#readme",
+  "dependencies": {
+    "@prisma/client": "^4.8.1",
+    "fastify": "^4.11.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.8.1",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  }
 }
